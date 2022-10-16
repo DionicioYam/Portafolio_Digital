@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/fondo2.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #098af5;
+    color: #fff;
+    text-decoration: none;
+    background: #098af5;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #0084ff;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #07f5d5;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    
+    background: url(img/fondo2.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+.box-container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container1 .box {
+    height: 8rem;
+    width: 8rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .2rem 3.5rem rgba(0, 0 , 0, .5);
+    margin: 1rem;   
+}
+
+.box-container1 .box i {
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #0595f5;
+    font-size: 3rem;
+    margin: 1rem 0;
+
+}
+
+.box-container1 .box h3 {
+    font-size: 20px;
+    color: #a80de6;
+
+}
+
+.box-container1 .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    
+}
+a { text-decoration: none; 
+   } 
+
+   @media (max-width: 768px) {
+
+    .title {
+        margin-top: 90px;
+        margin-bottom: 90px;
+        font-size: 20px;
+        
+    }
+
+    .sau {
+        height: 250vh;
+    }
+
+    .navbar {
+        display:flexbox;
+        padding: 20px;
+    }
+
+    
+}
+.headp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.headerp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headerp {
+    height: 250vh !important;
+    background: url(img/fondo2.png) no-repeat center;
+    background-size: cover;
+}
+.titles{
+  margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.xd{
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.borde{
+    border: 5px solid rgb(88, 100, 97);
+}
